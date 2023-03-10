@@ -18,7 +18,7 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
     - Müller 2014, 325–327. ← "En Dash" (`⌥ -`)
 - [ ] Unmittelbar folgende Verweise auf die gleiche Publikation
     - Ebd., 34.
-- [ ] Zitate und Literaturnachweise in Fußnotent: 
+- [ ] Zitate und Literaturnachweise in Fußnoten: 
     - »Zitat« (Müller 2014, 34).
     - Müller kommentiert: »Zitat« (2014, 34).
     - Müller (2014, 34) weist darauf hin, dass …
