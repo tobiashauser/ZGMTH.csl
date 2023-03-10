@@ -1,0 +1,23 @@
+[
+	{
+		"id": "http://zotero.org/users/local/3NV5OMcP/items/5A5LZYK9",
+		"type": "book",
+		"event-place": "Tutzing",
+		"publisher": "Schneider",
+		"publisher-place": "Tutzing",
+		"title": "Mendelssohns Lieder ohne Worte",
+		"author": [
+			{
+				"family": "Jost",
+				"given": "Christa"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1988"
+				]
+			]
+		}
+	}
+]
