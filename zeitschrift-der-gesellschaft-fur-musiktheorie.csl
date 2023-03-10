@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
+<style class="note" version="1.0" demote-non-dropping-particle="never" default-locale="de" xmlns="http://purl.org/net/xbiblio/csl">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Zeitschrift der Gesellschaft für Musiktheorie</title>
@@ -10,12 +10,21 @@
       <name>Tobias Hauser</name>
     </author>
     <category citation-format="author-date"/>
-    <category field="musictheorie"/>
-    <updated>2023-03-10T10:03:09+00:00</updated>
+    <category field="musiktheorie"/>
+    <updated>2023-03-10T13:29:25+00:00</updated>
     <link href="https://github.com/tobiashauser/42.37-zotero-author-year-citation-style" rel="repo"/>
   </info>
+  <macro name="author-footnote">
+    <names variable="author">
+      <name form="short"/>
+    </names>
+  </macro>
   <citation>
-    <layout/>
+    <layout>
+      <group>
+        <text macro="author-footnote"/>
+      </group>
+    </layout>
   </citation>
   <bibliography>
     <layout/>
