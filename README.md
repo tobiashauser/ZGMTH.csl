@@ -22,7 +22,7 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
     - Müller 2014, 325.
     - Müller 2014, 325f.
     - Müller 2014, 325–327. ← "En Dash" (`⌥ -`)
-- [x] Unmittelbar folgende Verweise auf die gleiche Publikation
+- [ ] Unmittelbar folgende Verweise auf die gleiche Publikation
     - Ebd., 34.
 - [ ] Zitate und Literaturnachweise in Fußnoten: 
     - »Zitat« (Müller 2014, 34).
@@ -35,7 +35,7 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 
 ### Literaturverzeichnis
 
-- [ ] Disambiguation mehrerer Publikationen des gleichen Autors im gleichen Jahr
+- [x] Disambiguation mehrerer Publikationen des gleichen Autors im gleichen Jahr
     - Riemann, Hugo (1901a), »Musikalische Logik« [1872], in: ders., Präludien und Studien III, Leipzig: Breitkopf & Härtel, 1–22.
     - Riemann, Hugo (1901b), »Zur Theorie der Konsonanz und Dissonanz«, in: ders., Präludien und Studien III, Leipzig: Breitkopf & Härtel, 31–45.
 - [ ] Simplifikation des Erscheinungsortes (nur der erste wird aufgeführt
@@ -47,7 +47,7 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 - [x] Basics
     - Jost, Christa (1988), *Mendelssohns Lieder ohne Worte*, Tutzing: Schneider. → **book**
     - Autor, Anton (Hg.) (2008), […]
-- [ ] Mehrere AutorInnen/HerausgeberInnen
+- [x] Mehrere AutorInnen/HerausgeberInnen
     - Müller, Peter / Friedrich Huber / Petra Meier (1999), […]
     - Müller, Peter / Friedrich Huber / Petra Meier (Hg.) (1999), […]
 
