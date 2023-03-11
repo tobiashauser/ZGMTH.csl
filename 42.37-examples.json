@@ -19,5 +19,26 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/local/3NV5OMcP/items/XF65BG4F",
+		"type": "book",
+		"event-place": "Am Fluss",
+		"publisher": "Mühle",
+		"publisher-place": "Am Fluss",
+		"title": "The Trials and Tribulations of Citation",
+		"author": [
+			{
+				"family": "Buchdrucker",
+				"given": "Friedrich"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1790"
+				]
+			]
+		}
 	}
 ]

@@ -11,22 +11,45 @@
     </author>
     <category citation-format="author-date"/>
     <category field="musiktheorie"/>
-    <updated>2023-03-10T13:29:25+00:00</updated>
+    <updated>2023-03-10T18:42:07+00:00</updated>
     <link href="https://github.com/tobiashauser/42.37-zotero-author-year-citation-style" rel="repo"/>
   </info>
-  <macro name="author-footnote">
+  <macro name="author-bib">
     <names variable="author">
-      <name form="short"/>
+      <name name-as-sort-order="first"/>
     </names>
   </macro>
+  <macro name="date-bib">
+    <date variable="issued">
+      <date-part name="year" prefix="(" suffix=")"/>
+    </date>
+  </macro>
+  <macro name="title-bib">
+    <text variable="title" quotes="false" font-style="italic"/>
+  </macro>
+  <macro name="place-bib">
+    <text variable="publisher-place" suffix=":"/>
+  </macro>
+  <macro name="publisher-bib">
+    <text variable="publisher"/>
+  </macro>
+  <macro name="place-publisher-bib">
+    <group delimiter=": ">
+      <text macro="place-bib"/>
+      <text macro="publisher-bib"/>
+    </group>
+  </macro>
   <citation>
-    <layout>
-      <group>
-        <text macro="author-footnote"/>
-      </group>
-    </layout>
+    <layout/>
   </citation>
   <bibliography>
-    <layout/>
+    <layout>
+      <group font-style="normal" font-variant="normal" text-decoration="none" vertical-align="baseline" delimiter=", " suffix=".">
+        <text macro="author-bib"/>
+        <text macro="date-bib"/>
+        <text macro="title-bib"/>
+        <text macro="place-publisher-bib"/>
+      </group>
+    </layout>
   </bibliography>
 </style>

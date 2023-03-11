@@ -12,11 +12,13 @@ The citation style is written in the XML-based [Citation Style Language](https:/
 
 It is most convenient to use the [Visual CSL Editor](https://editor.citationstyles.org/visualEditor/). To see a how a style can look use the provided [American Psychological Association 7th Edition](apa.csl) which already looks very similar to what is needed.
 
+## ❗️ Limits
+
 ## 💎 Features
 
 ### Fußnoten
 
-- [ ] Fußnoten: 
+- [x] Fußnoten: 
     - Müller 2014, 325.
     - Müller 2014, 325f.
     - Müller 2014, 325–327. ← "En Dash" (`⌥ -`)
@@ -43,7 +45,7 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 #### Selbstständige Publikationen
 
 - [ ] Basics
-    - Jost, Christa (1988), *Mendelssohns Lieder ohne Worte*, Tutzing: Schneider.
+    - Jost, Christa (1988), *Mendelssohns Lieder ohne Worte*, Tutzing: Schneider. → **book**
     - Autor, Anton (Hg.) (2008), […]
 - [ ] Mehrere AutorInnen/HerausgeberInnen
     - Müller, Peter / Friedrich Huber / Petra Meier (1999), […]
