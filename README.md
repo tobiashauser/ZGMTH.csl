@@ -44,7 +44,7 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 
 #### Selbstständige Publikationen
 
-- [ ] Basics
+- [x] Basics
     - Jost, Christa (1988), *Mendelssohns Lieder ohne Worte*, Tutzing: Schneider. → **book**
     - Autor, Anton (Hg.) (2008), […]
 - [ ] Mehrere AutorInnen/HerausgeberInnen

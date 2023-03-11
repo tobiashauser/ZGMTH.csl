@@ -1,11 +1,11 @@
 [
 	{
-		"id": "http://zotero.org/users/local/3NV5OMcP/items/5A5LZYK9",
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/TC8NF6XC",
 		"type": "book",
 		"event-place": "Tutzing",
 		"publisher": "Schneider",
 		"publisher-place": "Tutzing",
-		"title": "Mendelssohns Lieder ohne Worte",
+		"title": "Abhandlung über ein Buch",
 		"author": [
 			{
 				"family": "Jost",
@@ -21,13 +21,13 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/3NV5OMcP/items/XF65BG4F",
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/DV5LDPWP",
 		"type": "book",
 		"event-place": "Am Fluss",
 		"publisher": "Mühle",
 		"publisher-place": "Am Fluss",
-		"title": "The Trials and Tribulations of Citation",
-		"author": [
+		"title": "An Editor writing a Book",
+		"editor": [
 			{
 				"family": "Buchdrucker",
 				"given": "Friedrich"
@@ -36,7 +36,63 @@
 		"issued": {
 			"date-parts": [
 				[
-					"1790"
+					"1790",
+					5,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/YPSVCBSI",
+		"type": "book",
+		"event-place": "Am Fluss",
+		"publisher": "Mühle",
+		"publisher-place": "Am Fluss",
+		"title": "Kollaborative Zusammenarbeit",
+		"author": [
+			{
+				"family": "Schwindelig",
+				"given": "Ernst"
+			},
+			{
+				"family": "Pingelig",
+				"given": "Gustav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1783",
+					2,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/4PIWDA43",
+		"type": "book",
+		"event-place": "Am Fluss",
+		"publisher": "Mühle",
+		"publisher-place": "Am Fluss",
+		"title": "Kollaborative Sammlung",
+		"editor": [
+			{
+				"family": "Fleißig",
+				"given": "Peter"
+			},
+			{
+				"family": "Blind",
+				"given": "Gustav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1783",
+					2,
+					29
 				]
 			]
 		}
