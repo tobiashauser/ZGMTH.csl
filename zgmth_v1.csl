@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" initialize-with="" demote-non-dropping-particle="never" default-locale="de">
+<style class="note" version="1.0" initialize-with="" demote-non-dropping-particle="never" default-locale="de" xmlns="http://purl.org/net/xbiblio/csl">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>ZGMTH</title>
@@ -11,7 +11,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="musiktheorie"/>
-    <updated>2023-03-11T20:14:45+00:00</updated>
+    <updated>2023-03-11T19:05:39+00:00</updated>
     <link href="https://github.com/tobiashauser/42.37-zotero-author-year-citation-style" rel="repo"/>
   </info>
   <macro name="book-bib">
@@ -28,10 +28,17 @@
     </group>
   </macro>
   <macro name="book-note">
-    <group delimiter=" ">
-      <text macro="name-editor-note"/>
-      <text macro="date"/>
-    </group>
+    <choose>
+      <if match="any" position="subsequent">
+        <text value="Ebd., "/>
+      </if>
+      <else>
+        <group delimiter=" ">
+          <text macro="name-editor-note"/>
+          <text macro="date"/>
+        </group>
+      </else>
+    </choose>
   </macro>
   <macro name="name-editor-note">
     <names variable="author" font-variant="normal">
@@ -71,11 +78,11 @@
       </substitute>
     </names>
   </macro>
-  <citation name-form="short" initialize-with="." name-as-sort-order="first" near-note-distance="1" disambiguate-add-year-suffix="true" givenname-disambiguation-rule="primary-name-with-initials" collapse="year-suffix" cite-group-delimiter=",">
+  <citation name-form="short" initialize-with="." name-as-sort-order="first" near-note-distance="1" disambiguate-add-names="true" disambiguate-add-givenname="true" givenname-disambiguation-rule="all-names" cite-group-delimiter=",">
     <sort>
       <key variable="author"/>
     </sort>
-    <layout delimiter="; ">
+    <layout delimiter="; " prefix="(" suffix=")">
       <text macro="book-note"/>
     </layout>
   </citation>

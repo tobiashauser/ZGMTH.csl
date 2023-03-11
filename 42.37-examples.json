@@ -96,5 +96,68 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/FALB72E8",
+		"type": "book",
+		"event-place": "Wiesbaden",
+		"publisher": "undisclosed",
+		"publisher-place": "Wiesbaden",
+		"title": "Gute Vorsätze",
+		"author": [
+			{
+				"family": "Fleißig",
+				"given": "Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/8ZRM9F7V",
+		"type": "book",
+		"event-place": "Wiesbaden",
+		"publisher": "undisclosed",
+		"publisher-place": "Wiesbaden",
+		"title": "Bessere Vorsätze",
+		"author": [
+			{
+				"family": "Fleißig",
+				"given": "Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/S7JH9YGP",
+		"type": "book",
+		"event-place": "Wiesbaden",
+		"publisher": "undisclosed",
+		"publisher-place": "Wiesbaden",
+		"title": "Viele Fleißigs sind am Werke",
+		"author": [
+			{
+				"family": "Fleißig",
+				"given": "Henriette"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
 	}
 ]
