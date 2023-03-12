@@ -16,7 +16,9 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 
 - Replacing subsequent citations with `Ebd.` breaks disambiguation-by-year. Current workaround is to drop this feature. Further experimentation with ibid., ... should be done.
 
-- Simplifikation des Erscheinungsortes. Das Datenmodell erlaubt keine Liste an Erscheinungsorten
+- Simplifikation des Erscheinungsortes. Das Datenmodell in Zotero erlaubt keine Liste an Erscheinungsorten. Der Eintrag in `Ort` wird verbatim in den Quellennach übernommen.
+
+- In der CSL-Spezifikation gibt es keine Möglichkeit, die Umgebung zu erkennen, in welcher der Nachweis dargestellt wird. Es wird einzig zwischen Bibliographie und Fließtext unterschieden. Es kann nicht zwischen verschiedenen Varianten von Fließtext- und Fußnotenzitaten differenziert werden. Fließtextnachweise haben immer die Form `Autor Jahr` (oder `Editor Jahr`). Mehrere Autoren/Editoren werden mit `/` getrennt. Selbstständig eingefügt werden muss die Seitenzahl, auf welche verwiesen wird, in der Form `Müller 2014, 325–327.` (Seitenbereich mit En-Dash). Siehe auch [<ins>Zitate und Fußnoten</ins>](https://www.gmth.de/formatierung.aspx#zf).
 
 ## 💎 Features
 
@@ -26,25 +28,12 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
     - Müller 2014, 325.
     - Müller 2014, 325f.
     - Müller 2014, 325–327. ← "En Dash" (`⌥ -`)
-- [ ] Unmittelbar folgende Verweise auf die gleiche Publikation ⚡️ breaks something!?
-    - Ebd., 34.
-- [ ] Zitate und Literaturnachweise in Fußnoten: 
-    - »Zitat« (Müller 2014, 34).
-    - Müller kommentiert: »Zitat« (2014, 34).
-    - Müller (2014, 34) weist darauf hin, dass …
-    - Müller 2014, 33. Weiterhin vertritt Müller die Position, die »Zitation vollständiger Sätze« sei »zumeist verzichtbar« (ebd., 34).
-- [ ] Punctuation: 
-    - »Hieraus folgt nun, dass es so viel Formen geben kann als Kunstwerke« (Marx 1838, 5).
-    - »Der Inbegriff nun der Grundzüge, in denen eine Masse einzelner Kunstwerke übereinstimmt, heißt Kunstform.« (Marx 1838, 5) ← Zitat endet mit Punkt.
 
 ### Literaturverzeichnis
 
 - [x] Disambiguation mehrerer Publikationen des gleichen Autors im gleichen Jahr
     - Riemann, Hugo (1901a), »Musikalische Logik« [1872], in: ders., Präludien und Studien III, Leipzig: Breitkopf & Härtel, 1–22.
     - Riemann, Hugo (1901b), »Zur Theorie der Konsonanz und Dissonanz«, in: ders., Präludien und Studien III, Leipzig: Breitkopf & Härtel, 31–45.
-- [ ] Simplifikation des Erscheinungsortes (nur der erste wird aufgeführt
-    - Schmidt, Lothar (1990), *Organische Form in der Musik. Stationen eines Begriffs 1795–1850*, Kassel: Bärenreiter[.]
-        > Fehlt hier ein Punkt auf der Website??
 
 #### Selbstständige Publikationen
 
