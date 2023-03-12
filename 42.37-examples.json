@@ -159,5 +159,104 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/ZC8YT9ZI",
+		"type": "article-journal",
+		"container-title": "The Cambridge History of Western Music Theory",
+		"page": "788-794",
+		"title": "Nineteenth-Century Harmonic Theory: The Austro-German Legacy",
+		"author": [
+			{
+				"family": "Bernstein",
+				"given": "David W."
+			}
+		],
+		"editor": [
+			{
+				"family": "Christensen",
+				"given": "Thomas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002",
+					2,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/B4ERQ95G",
+		"type": "article-journal",
+		"container-title": "Zeitschrift der Gesellschaft für Musiktheorie",
+		"DOI": "https://doi.org/10.31751/250",
+		"issue": "1-2",
+		"journalAbbreviation": "ZGMTH",
+		"language": "deutsch",
+		"page": "143-158",
+		"title": "›Modell‹ und ›Topos‹ in der deutschsprachigen Musiktheorie seit Riemann",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Aerts",
+				"given": "Hans"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/3YHIIATU",
+		"type": "thesis",
+		"event-place": "Laaber",
+		"genre": "Phil. Diss.",
+		"publisher": "Laaber",
+		"publisher-place": "Laaber",
+		"title": "Der Akkord C‐Dur",
+		"author": [
+			{
+				"family": "Müller",
+				"given": "Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					2,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/MT9YUIQG",
+		"type": "thesis",
+		"genre": "Diplomarbeit",
+		"publisher": "Hochschule für Musik und Theater Hamburg",
+		"title": "Die Anwendung der Clausellehre des 17. Jahrhunderts im Theorieunterricht",
+		"author": [
+			{
+				"family": "Preuß",
+				"given": "Volkhardt"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1991",
+					2,
+					13
+				]
+			]
+		}
 	}
 ]

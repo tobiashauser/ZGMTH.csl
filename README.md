@@ -20,6 +20,8 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 
 - In der CSL-Spezifikation gibt es keine Möglichkeit, die Umgebung zu erkennen, in welcher der Nachweis dargestellt wird. Es wird einzig zwischen Bibliographie und Fließtext unterschieden. Es kann nicht zwischen verschiedenen Varianten von Fließtext- und Fußnotenzitaten differenziert werden. Fließtextnachweise haben immer die Form `Autor Jahr` (oder `Editor Jahr`). Mehrere Autoren/Editoren werden mit `/` getrennt. Selbstständig eingefügt werden muss die Seitenzahl, auf welche verwiesen wird, in der Form `Müller 2014, 325–327.` (Seitenbereich mit En-Dash). Siehe auch [<ins>Zitate und Fußnoten</ins>](https://www.gmth.de/formatierung.aspx#zf).
 
+- Benutz das Feld **Universität** für den Verlag bei einer Dissertation.
+
 ## 💎 Features
 
 ### Fußnoten
@@ -37,14 +39,18 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 
 #### Selbstständige Publikationen
 
+↪ Hierfür sollte die Klasse **book/Buch** verwendet werden.
+
 - [x] Basics
-    - Jost, Christa (1988), *Mendelssohns Lieder ohne Worte*, Tutzing: Schneider. → **book**
+    - Jost, Christa (1988), *Mendelssohns Lieder ohne Worte*, Tutzing: Schneider. 
     - Autor, Anton (Hg.) (2008), […]
 - [x] Mehrere AutorInnen/HerausgeberInnen
     - Müller, Peter / Friedrich Huber / Petra Meier (1999), […]
     - Müller, Peter / Friedrich Huber / Petra Meier (Hg.) (1999), […]
 
 #### Unselbstständige Publikationen
+
+↪ Hierfür sollte in der Regel die Klasse **article-journal/Zeitschriftenartikel** verwendet werden.
 
 - [ ] Basics
     - Bernstein, David W. (2002), »Nineteenth-Century Harmonic Theory: The Austro-German Legacy«, in: *The Cambridge History of Western Music Theory*, hg. von Thomas Christensen, Cambridge: Cambridge University Press, 788–794.
@@ -83,11 +89,11 @@ Gesamtausgaben und Gesammelte Schriften werden aber immer vollständig mit Herau
 
 #### Wissenschaftliche Abschlussarbeiten
 
-- [ ] unveröffentlicht
+- [x] unveröffentlicht → **Manuskript**
     - Preuß, Volkhardt (1991), *Die Anwendung der Clausellehre des 17. Jahrhunderts im Theorieunterricht*, Diplomarbeit, Hochschule für Musik und Theater Hamburg.
-- [ ] veröffentlicht
+- [x] veröffentlicht → **Dissertation**
     - Müller, Peter (2008), *Der Akkord C‐Dur*, Phil. Diss., Laaber, Laaber.
-- [ ] Hinweise zum Dissertationsstatus stehen vor der Institution (unveröffentl.) bzw. dem Ort (veröffentl.), durch Komma getrennt.
+- [x] Hinweise zum Dissertationsstatus stehen vor der Institution (unveröffentl.) bzw. dem Ort (veröffentl.), durch Komma getrennt.
     - [...] Phil. Diss., Universität Bonn.
     - [...] Ph.D., University of Oregon.
 
