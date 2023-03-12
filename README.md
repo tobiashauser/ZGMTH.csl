@@ -14,7 +14,9 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 
 ## ❗️ Limits
 
-Ebd. implementation breaks stuff...
+- Replacing subsequent citations with `Ebd.` breaks disambiguation-by-year. Current workaround is to drop this feature. Further experimentation with ibid., ... should be done.
+
+- Simplifikation des Erscheinungsortes. Das Datenmodell erlaubt keine Liste an Erscheinungsorten
 
 ## 💎 Features
 
@@ -24,7 +26,7 @@ Ebd. implementation breaks stuff...
     - Müller 2014, 325.
     - Müller 2014, 325f.
     - Müller 2014, 325–327. ← "En Dash" (`⌥ -`)
-- [ ] Unmittelbar folgende Verweise auf die gleiche Publikation
+- [ ] Unmittelbar folgende Verweise auf die gleiche Publikation ⚡️ breaks something!?
     - Ebd., 34.
 - [ ] Zitate und Literaturnachweise in Fußnoten: 
     - »Zitat« (Müller 2014, 34).
