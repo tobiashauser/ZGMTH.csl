@@ -16,6 +16,8 @@ It is most convenient to use the [Visual CSL Editor](https://editor.citationstyl
 
 - Replacing subsequent citations with `Ebd.` breaks disambiguation-by-year. Current workaround is to drop this feature. Further experimentation with ibid., ... should be done.
 
+- Simplifikation des Erscheinungsortes. Das Datenmodell erlaubt keine Liste an Erscheinungsorten
+
 ## 💎 Features
 
 ### Fußnoten
