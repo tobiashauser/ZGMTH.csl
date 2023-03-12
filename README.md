@@ -89,7 +89,7 @@ Gesamtausgaben und Gesammelte Schriften werden aber immer vollständig mit Herau
 
 #### Wissenschaftliche Abschlussarbeiten
 
-- [x] unveröffentlicht → **Manuskript**
+- [x] unveröffentlicht → **Dissertation**
     - Preuß, Volkhardt (1991), *Die Anwendung der Clausellehre des 17. Jahrhunderts im Theorieunterricht*, Diplomarbeit, Hochschule für Musik und Theater Hamburg.
 - [x] veröffentlicht → **Dissertation**
     - Müller, Peter (2008), *Der Akkord C‐Dur*, Phil. Diss., Laaber, Laaber.
