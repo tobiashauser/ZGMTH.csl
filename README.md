@@ -1,6 +1,6 @@
 # 📑 ZGMTH.csl
 
-> Dieser Zitierstil ist noch jung und es fehlen noch einige Anwendungsfälle.
+> Dieser Zitierstil ist noch jung und es fehlen sicher noch einige Anwendungsfälle.
 
 Dieser Zitierstil implementiert einen Autor-Jahr-Stil nach den [Formatierungsregeln der ZGMTH](https://www.gmth.de/formatierung.aspx#zf).
 
