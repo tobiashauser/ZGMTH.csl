@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="de" xmlns="http://purl.org/net/xbiblio/csl">
-  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/#) -->
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="de">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title xml:lang="de">ZGMTH</title>
     <id>http://www.zotero.org/styles/zgmth</id>
     <link rel="self" href="http://www.zotero.org/styles/zgmth"/>
-    <updated>2023-03-12T23:48:32+00:00</updated>
+    <updated>2023-03-13T08:13:31+00:00</updated>
   </info>
   <locale xml:lang="de">
     <terms>
@@ -66,21 +66,29 @@
     </group>
   </macro>
   <macro name="book-section-bib">
-    <group>
-      <text macro="author-date-bib" suffix=", "/>
-      <text variable="title" strip-periods="false" quotes="true" font-style="normal" font-variant="normal" font-weight="normal" text-decoration="none" vertical-align="baseline"/>
-      <text value=", "/>
-      <choose>
-        <if match="any" variable="container-author">
-          <group delimiter=" " suffix=" ">
-            <text value="in:"/>
-            <names variable="container-author"/>
-          </group>
-        </if>
-      </choose>
-      <text macro="volume-issue"/>
-      <text macro="publisher-place" prefix=", "/>
-      <text variable="page" prefix=", "/>
+    <group delimiter=", ">
+      <text macro="author-date-bib"/>
+      <group delimiter=" ">
+        <text variable="title" strip-periods="false" quotes="true" font-style="normal" font-variant="normal" font-weight="normal" text-decoration="none" vertical-align="baseline"/>
+        <text macro="type-original-date"/>
+      </group>
+      <group>
+        <choose>
+          <if match="any" variable="container-author original-author">
+            <group delimiter=" " suffix=" ">
+              <text value="in:"/>
+              <names variable="container-author">
+                <substitute>
+                  <names variable="original-author"/>
+                </substitute>
+              </names>
+            </group>
+          </if>
+        </choose>
+        <text macro="volume-issue"/>
+      </group>
+      <text macro="publisher-place"/>
+      <text variable="page"/>
     </group>
   </macro>
   <macro name="article-journal-bib">
@@ -137,7 +145,7 @@
     </choose>
   </macro>
   <macro name="web-access">
-    <group delimiter=" ">
+    <group delimiter=" " prefix=" ">
       <choose>
         <if match="any" variable="DOI">
           <text variable="DOI"/>
@@ -230,7 +238,7 @@
     <text term="volume" form="short" suffix=" "/>
     <text variable="volume"/>
   </macro>
-  <citation>
+  <citation disambiguate-add-year-suffix="true" givenname-disambiguation-rule="all-names">
     <layout>
       <group delimiter=" ">
         <names variable="author">
@@ -247,7 +255,12 @@
       </group>
     </layout>
   </citation>
-  <bibliography>
+  <bibliography hanging-indent="true">
+    <sort>
+      <key variable="author"/>
+      <key variable="issued"/>
+      <key variable="title"/>
+    </sort>
     <layout>
       <choose>
         <if type="thesis" match="any">
