@@ -5,7 +5,7 @@
     <title xml:lang="de">ZGMTH</title>
     <id>http://www.zotero.org/styles/zgmth</id>
     <link rel="self" href="http://www.zotero.org/styles/zgmth"/>
-    <updated>2023-03-13T08:13:31+00:00</updated>
+    <updated>2023-03-13T08:52:45+00:00</updated>
   </info>
   <locale xml:lang="de">
     <terms>
@@ -148,7 +148,7 @@
     <group delimiter=" " prefix=" ">
       <choose>
         <if match="any" variable="DOI">
-          <text variable="DOI"/>
+          <text variable="DOI" prefix="&amp;#10;"/>
         </if>
         <else>
           <text variable="URL"/>
