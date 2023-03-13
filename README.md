@@ -2,8 +2,6 @@
 
 Dieser Zitierstil implementiert einen Autor-Jahr-Stil nach den [Formatierungsregeln der ZGMTH](https://www.gmth.de/formatierung.aspx#zf).
 
-{{TOC:2}}
-
 ## Beispiele
 
 Fließtextzitate haben immer die Form `Autor Jahr`: Adorno 2001, Choron/La Fage 1838.
