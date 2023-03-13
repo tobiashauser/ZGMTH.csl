@@ -8,7 +8,7 @@ Dieser Zitierstil implementiert einen Autor-Jahr-Stil nach den [Formatierungsreg
 
 Fließtextzitate haben immer die Form `Autor Jahr`: Adorno 2001, Choron/La Fage 1838.
 
-### Bibliographie
+#### Bibliographie
 
 Adorno, Theodor W. (2001), *Zu einer Theorie der musikalischen Reproduktion. Aufzeichnungen, ein Entwurf und zwei Schemata* (= *Nachgelassene Schriften* I/2), hg. von Henri Lonitz, Frankfurt a. M.: Suhrkamp.
 
