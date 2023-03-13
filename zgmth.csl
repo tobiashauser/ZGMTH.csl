@@ -2,10 +2,17 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="de">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title xml:lang="de">ZGMTH</title>
+    <title xml:lang="de">Zeitschrift der Gesellschaft für Musiktheorie</title>
+    <title-short>ZGMTH</title-short>
     <id>http://www.zotero.org/styles/zgmth</id>
     <link rel="self" href="http://www.zotero.org/styles/zgmth"/>
-    <updated>2023-03-13T08:52:45+00:00</updated>
+    <author>
+      <name>Tobias Hauser</name>
+    </author>
+    <category citation-format="author-year"/>
+    <category field="Musiktheorie"/>
+    <updated>2023-03-13T10:02:42+00:00</updated>
+    <link href="https://github.com/tobiashauser/ZGMTH.csl" rel="repo"/>
   </info>
   <locale xml:lang="de">
     <terms>
