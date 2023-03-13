@@ -1,4 +1,5 @@
-    
+🚨 This file is best displayed in an editor with line wrapping disabled.
+
 ## Selbständige Publikationen
 
 Boyvin, Jacques (1705), *Traité abrégé de l'accompagnement pour lʼorgue et pour le clavecin*, 2. Auflage, Paris: Ballard.
