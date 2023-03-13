@@ -1,0 +1,657 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <bib:Book rdf:about="#item_4">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Am Fluss</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Mühle</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buchdrucker</foaf:surname>
+                        <foaf:givenName>Friedrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>An Editor writing a Book</dc:title>
+        <dc:date>5/12/1790</dc:date>
+    </bib:Book>
+    <bib:Book rdf:about="#item_6">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Am Fluss</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Mühle</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fleißig</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blind</foaf:surname>
+                        <foaf:givenName>Gustav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Kollaborative Sammlung</dc:title>
+        <dc:date>2/29/1783</dc:date>
+    </bib:Book>
+    <bib:Book rdf:about="#item_16">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Ballard</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boyvin</foaf:surname>
+                        <foaf:givenName>Jaques</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Traité abrégé de l'accompagnement pour l'orgue et pour le clavecin</dc:title>
+        <dc:date>1705</dc:date>
+        <prism:edition>2</prism:edition>
+    </bib:Book>
+    <bib:Book rdf:about="#item_17">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Roret</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Choron</foaf:surname>
+                        <foaf:givenName>Alexandre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>La Fage</foaf:surname>
+                        <foaf:givenName>Adrien de</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Manuel complet de musique vocale et instrumentale, ou Encyclopédie musicale</dc:title>
+        <dc:date>1838</dc:date>
+        <prism:volume>2</prism:volume>
+    </bib:Book>
+    <bib:Article rdf:about="#item_18">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>Musiktheorie von der Antike bis zur Gegenwart</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aerts</foaf:surname>
+                        <foaf:givenName>Hans</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scheideler</foaf:surname>
+                        <foaf:givenName>Ulrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wörner</foaf:surname>
+                        <foaf:givenName>Felix</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>J. G. Albrechtsberger, Gründliche Anweisung zur Composition</dc:title>
+        <dc:date>2017</dc:date>
+        <dc:description>Place: Kassel
+Publisher: Bärenreiter</dc:description>
+        <bib:pages>14-16</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="#item_20">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Musik und ihre Theorien. Clemens Kühn zum 65. Geburtstag</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Diergarten</foaf:surname>
+                        <foaf:givenName>Felix</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Diergarten</foaf:surname>
+                        <foaf:givenName>Felix</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holtmeier</foaf:surname>
+                        <foaf:givenName>Ludwig</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leigh</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Metzner</foaf:surname>
+                        <foaf:givenName>Edith</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Ancilla Secundae: Akkord und Stimmführung in der Generalbasslehre</dc:title>
+        <dc:date>2010</dc:date>
+        <dc:description>place: Dresden
+publisher: Sandstein</dc:description>
+        <bib:pages>132-148</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="#item_21">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>31</prism:volume>
+                <dc:title>Basler Jahrbuch für Historische Musikpraxis</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holtmeier</foaf:surname>
+                        <foaf:givenName>Ludwig</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Implizite Theorie: Zum Akkordbegriff der italienischen Generalbass-Theorie</dc:title>
+        <dc:date>2007</dc:date>
+        <bib:pages>149-170</bib:pages>
+    </bib:Article>
+    <bib:BookSection rdf:about="#item_22">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Präludien und Studien III</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leipzig</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Breitkopf &amp; Härtel</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riemann</foaf:surname>
+                        <foaf:givenName>Hugo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Zur Theorie der Konsonanz und Dissonanz</dc:title>
+        <dc:date>1901</dc:date>
+        <dc:description>container-author: ders.</dc:description>
+        <bib:pages>31-45</bib:pages>
+    </bib:BookSection>
+    <bib:Article rdf:about="#item_23">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>4</prism:volume>
+                <dc:title>Zeitschrift der Gesellschaft für Musiktheorie</dc:title>
+                <dc:identifier>DOI https://doi.org/10.31751/250</dc:identifier>
+                <prism:number>1-2</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aerts</foaf:surname>
+                        <foaf:givenName>Hans</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>›Modell‹ und ›Topos‹ in der deutschsprachigen Musiktheorie seit Riemann</dc:title>
+        <dc:date>2007</dc:date>
+        <dcterms:dateSubmitted>2017-02-15</dcterms:dateSubmitted>
+        <bib:pages>143-158</bib:pages>
+    </bib:Article>
+    <bib:Book rdf:about="#item_24">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Tutzing</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Schneider</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schäfke</foaf:surname>
+                        <foaf:givenName>Rudolf</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Geschichte der Musikästhetik in Umrissen</dc:title>
+        <dc:date>1964</dc:date>
+        <dc:description>original-date: 1934</dc:description>
+        <prism:edition>2</prism:edition>
+    </bib:Book>
+    <bib:BookSection rdf:about="#item_25">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Der Tonwille. Vierteljahrschrift zum Zeugnis unwandelbarer Gesetze der Tonkunst einer neuen Jugend dargebracht von Heinrich Schenker</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schenker</foaf:surname>
+                        <foaf:givenName>Heinrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Die Kunst zu hören</dc:title>
+        <dc:date>1922</dc:date>
+        <dc:description>Issue: 3</dc:description>
+        <bib:pages>22-25</bib:pages>
+    </bib:BookSection>
+    <bib:Book rdf:about="#item_26">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Hildesheim</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Olms</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riemann</foaf:surname>
+                        <foaf:givenName>Hugo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Präludien und Studien III</dc:title>
+        <dc:date>1967</dc:date>
+        <dc:description>original-date: 1901
+original-publisher-place: Leipzig
+original-publisher: Breitkopf &amp; Härtel</dc:description>
+    </bib:Book>
+    <bib:Book rdf:about="#item_28">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Series><dc:title>Große Kompositionslehre</dc:title></bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Spemann</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riemann</foaf:surname>
+                        <foaf:givenName>Hugo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Der polyphone Satz</dc:title>
+        <dc:date>1903</dc:date>
+        <prism:volume>2</prism:volume>
+    </bib:Book>
+    <bib:Book rdf:about="#item_29">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Nachgelassene Schriften</dc:title>
+                <dc:identifier>I</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Frankfurt a. M.</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Suhrkamp</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adorno</foaf:surname>
+                        <foaf:givenName>Theodor W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lonitz</foaf:surname>
+                        <foaf:givenName>Henri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Zu einer Theorie der musikalischen Reproduktion. Aufzeichnungen, ein Entwurf und zwei Schemata</dc:title>
+        <dc:date>2001</dc:date>
+        <prism:volume>2</prism:volume>
+    </bib:Book>
+    <bib:Thesis rdf:about="#item_30">
+        <z:itemType>thesis</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Müller</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Der Akkord C‐Dur</dc:title>
+        <dc:date>2008</dc:date>
+        <dc:description>Publisher: Laaber</dc:description>
+        <z:type>Phil. Diss.</z:type>
+    </bib:Thesis>
+    <bib:Thesis rdf:about="#item_31">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Hochschule für Musik und Theater Hamburg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Preuß</foaf:surname>
+                        <foaf:givenName>Volkhardt</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Die Anwendung der Clausellehre des 17. Jahrhunderts im Theorieunterricht</dc:title>
+        <dc:date>1991</dc:date>
+        <z:type>Diplomarbeit</z:type>
+    </bib:Thesis>
+    <bib:Manuscript rdf:about="#item_32">
+        <z:itemType>manuscript</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Anonym</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Regole del contrappunto, del sonare il basso continuo, et accompagnare la parte che canta</dc:title>
+        <dc:date>um 1700</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>I-Bc P.120 (5)</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>Pages: fol. 32r-46v</dc:description>
+        <z:type>Ms.</z:type>
+    </bib:Manuscript>
+    <bib:Book rdf:about="#item_33">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Padua</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Armelin Musica</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Durante</foaf:surname>
+                        <foaf:givenName>Francesco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pastore</foaf:surname>
+                        <foaf:givenName>Giuseppe A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Bassi e Fughe</dc:title>
+        <dc:date>2003</dc:date>
+        <dc:description>Type: Ms.</dc:description>
+    </bib:Book>
+    <bib:Article rdf:about="#item_34">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>Georg Muffat. An Essay on Thoroughbass</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muffat</foaf:surname>
+                        <foaf:givenName>Georg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Federhofer</foaf:surname>
+                        <foaf:givenName>Helmut</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Regulae concentuum partiturae</dc:title>
+        <dc:date>1961</dc:date>
+        <dc:description>type: Ms.
+original-date: 1699
+place: Dallas (TX)
+publisher: American Institue of Musicology</dc:description>
+        <bib:pages>39-130</bib:pages>
+    </bib:Article>
+    <bib:Document rdf:about="http://www.uni-koeln.de/hf/konstrukt/reich_works/buecher/ordnung/band1.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reich</foaf:surname>
+                        <foaf:givenName>Kersten</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Beobachtung und die Unschärfen der Erkenntnis</dc:title>
+        <dc:date>2009</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.uni-koeln.de/hf/konstrukt/reich_works/buecher/ordnung/band1.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2016-03-02</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Book rdf:about="#item_36">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Wilhemshaven</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Noetzel</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holtmeier</foaf:surname>
+                        <foaf:givenName>Ludwig</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Menke</foaf:surname>
+                        <foaf:givenName>Johannes</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Diergarten</foaf:surname>
+                        <foaf:givenName>Felix</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Solfeggi, Bassi e Fughe. Georg Friedrich Händels Übungen zur Satzlehre</dc:title>
+        <dc:date>2013</dc:date>
+    </bib:Book>
+    <bib:BookSection rdf:about="#item_37">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Präludien und Studien III</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leipzig</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Breitkopf &amp; Härtel</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riemann</foaf:surname>
+                        <foaf:givenName>Hugo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Musikalische Logik</dc:title>
+        <dc:date>1901</dc:date>
+        <dc:description>original-author: ders.
+original-date: 1872</dc:description>
+        <bib:pages>1-22</bib:pages>
+    </bib:BookSection>
+</rdf:RDF>
