@@ -28,7 +28,7 @@ Der Zitierstil benutzt die Typen **Buch**, **Buchteil**, **Dissertation**, **Man
 
 > Damit sind sicher noch nicht alle Fälle abgedeckt, siehe auch [Verbesserungen](#🧑‍💻verbesserungen).
 
-### Buch
+### 📚 Buch
 
 Ein Buch hat in seiner einfachsten Form die Syntax:
 
@@ -50,7 +50,7 @@ Ein Reprint wird markiert, indem **orginal-date**, **original-publisher** und **
 Autor(en) (original-date), *Titel*, original-publisher-place: original-publisher, Reprint Ort: Verlag Datum.
 ```
 
-### Buchteil
+### 📖 Buchteil
 
 Ein Buchteil unterscheidet sich von der Klasse Zeitschriftenartikel durch das Weglassen von `in:`. Dieses Verhalten kann jedoch die Angabe von **container-author** oder **original-author** überschrieben werden. Dadurch ergeben zwei Schema:
 
@@ -66,7 +66,7 @@ Autor(en) (Datum), "Titel" [type, original-date], in: collection-author, *Buchti
 
 Ist der Autor der Reihe derselbe wie der des Auszugs daraus, kann durch die Angabe `collection-author: ders.` die gekürzte Variante erzeugt werden.
 
-### Dissertation
+### 📝 Dissertation
 
 Eine Dissertation hat das folgende Schema:
 
@@ -75,7 +75,7 @@ Autor(en) (Datum), *Titel*, Art, Universität.
                                  Verlag
 ```
 
-### Manuskript
+### 📜 Manuskript
 
 Für ein Manuskript kann statt Seitenzahlen auch eine explizite Angabe wie `fol. 32r-46v` verwendet werden. Gleiches gilt für die Felder Signatur und Datum.
 
@@ -83,11 +83,11 @@ Für ein Manuskript kann statt Seitenzahlen auch eine explizite Angabe wie `fol.
 Autor(en) (Datum), *Titel*, Art, Signatur, pages.
 ```
 
-### Webseite
+### 🕸️ Webseite
 
 Eine Webseite wird wie ein Buch dargestellt.
 
-### Zeitschriftenartikel
+### 🗞️ Zeitschriftenartikel
 
 Ein Zeitschriftenartikel hat die Form:
 
