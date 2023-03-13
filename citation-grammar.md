@@ -136,9 +136,9 @@ Author(s) (Date), "Title" [Type, original-date], in: *Publication* Volume/Issue,
 
 ### Book Section
 
-Author(s) (Date), "Title",                                               *Book Title*, Volume        , Place: Publisher, Pages. 
-                           <collection-author: `in:` collection-author, *Publication*> ? Issue
-                                                                                       ? Volume/Issue → ohne Komma
+Author(s) (Date), "Title" [type, original-date],                                               *Book Title*, Volume        , Place: Publisher, Pages. 
+                                                 <collection-author: `in:` collection-author, *Publication*> ? Issue
+                                                                                                             ? Volume/Issue → ohne Komma
 
 ### Thesis
 
