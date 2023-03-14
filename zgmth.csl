@@ -4,7 +4,7 @@
   <info>
     <title xml:lang="de">Zeitschrift der Gesellschaft für Musiktheorie</title>
     <title-short>ZGMTH</title-short>
-    <id>http://www.zotero.org/styles/zeitschrift-der-gesellschaft-fur-musiktheorie</id>
+    <id>http://www.zotero.org/styles/zgmth</id>
     <link rel="self" href="http://www.zotero.org/styles/zgmth"/>
     <author>
       <name>Tobias Hauser</name>
@@ -12,7 +12,7 @@
     <category citation-format="author-year"/>
     <category citation-format="note"/>
     <category field="Musiktheorie"/>
-    <updated>2023-03-14T15:23:23+00:00</updated>
+    <updated>2023-03-14T15:49:15+00:00</updated>
     <link href="https://github.com/tobiashauser/ZGMTH.csl" rel="repo"/>
   </info>
   <locale xml:lang="de">
@@ -168,7 +168,9 @@
           <text variable="URL"/>
         </else>
       </choose>
-      <date form="numeric" variable="accessed" prefix="(" suffix=")"/>
+      <date form="numeric" variable="accessed" prefix="(" suffix=")">
+        <date-part name="year"/>
+      </date>
     </group>
   </macro>
   <macro name="book-bib">
@@ -252,20 +254,28 @@
     <text term="volume" form="short" suffix=" "/>
     <text variable="volume"/>
   </macro>
+  <macro name="footnote-locator">
+    <group>
+      <number variable="locator"/>
+    </group>
+  </macro>
   <citation disambiguate-add-year-suffix="true" givenname-disambiguation-rule="all-names">
     <layout>
-      <group delimiter=" ">
-        <names variable="author">
-          <name form="short" delimiter="/"/>
-          <substitute>
-            <names variable="editor">
-              <name form="short" delimiter="/"/>
-            </names>
-          </substitute>
-        </names>
-        <date date-parts="year" form="text" variable="issued">
-          <date-part name="year"/>
-        </date>
+      <group delimiter=", " suffix=".">
+        <group delimiter=" ">
+          <names variable="author">
+            <name form="short" delimiter="/"/>
+            <substitute>
+              <names variable="editor">
+                <name form="short" delimiter="/"/>
+              </names>
+            </substitute>
+          </names>
+          <date date-parts="year" form="text" variable="issued">
+            <date-part name="year"/>
+          </date>
+        </group>
+        <text macro="footnote-locator"/>
       </group>
     </layout>
   </citation>
