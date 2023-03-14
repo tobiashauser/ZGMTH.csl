@@ -63,7 +63,7 @@ Autor(en) (Datum), "Titel" [type, original-date], *Buchtitel* Band/Issue, Ort: V
 
 Autor(en) (Datum), "Titel" [type, original-date], in: collection-author, *Buchtitel* Band/Issue, Ort: Verlag, Seiten.
                                                       original-author              , Bd. Band
-                                                      editor                       , H. Issue
+                                                      editor (Hg.)                 , H. Issue
 ```
 
 Ist der Autor der Reihe derselbe wie der des Auszugs daraus, kann durch die Angabe `collection-author: ders.` die gekürzte Variante erzeugt werden.
