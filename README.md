@@ -54,7 +54,7 @@ Autor(en) (original-date), *Titel*, original-publisher-place: original-publisher
 
 ### 📖 Buchteil
 
-Ein Buchteil unterscheidet sich von der Klasse Zeitschriftenartikel durch das Weglassen von `in:`. Dieses Verhalten kann jedoch die Angabe von **container-author** oder **original-author** überschrieben werden. Dadurch ergeben zwei Schema:
+Ein Buchteil unterscheidet sich von der Klasse Zeitschriftenartikel durch das Weglassen von `in:`. Dieses Verhalten wird bei Vorliegen von  **container-author**, **original-author** oder **editor** überschrieben. Dadurch ergeben zwei Schema:
 
 ```md
 Autor(en) (Datum), "Titel" [type, original-date], *Buchtitel* Band/Issue, Ort: Verlag, Seiten.
@@ -63,7 +63,7 @@ Autor(en) (Datum), "Titel" [type, original-date], *Buchtitel* Band/Issue, Ort: V
 
 Autor(en) (Datum), "Titel" [type, original-date], in: collection-author, *Buchtitel* Band/Issue, Ort: Verlag, Seiten.
                                                       original-author              , Bd. Band
-                                                                                   , H. Issue
+                                                      editor                       , H. Issue
 ```
 
 Ist der Autor der Reihe derselbe wie der des Auszugs daraus, kann durch die Angabe `collection-author: ders.` die gekürzte Variante erzeugt werden.
