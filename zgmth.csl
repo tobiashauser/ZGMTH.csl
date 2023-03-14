@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="de">
+<style class="note" version="1.0" demote-non-dropping-particle="never" default-locale="de" xmlns="http://purl.org/net/xbiblio/csl">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title xml:lang="de">Zeitschrift der Gesellschaft für Musiktheorie</title>
     <title-short>ZGMTH</title-short>
-    <id>http://www.zotero.org/styles/zgmth</id>
+    <id>http://www.zotero.org/styles/zeitschrift-der-gesellschaft-fur-musiktheorie</id>
     <link rel="self" href="http://www.zotero.org/styles/zgmth"/>
     <author>
       <name>Tobias Hauser</name>
     </author>
     <category citation-format="author-year"/>
+    <category citation-format="note"/>
     <category field="Musiktheorie"/>
-    <updated>2023-03-13T10:02:42+00:00</updated>
+    <updated>2023-03-14T15:23:23+00:00</updated>
     <link href="https://github.com/tobiashauser/ZGMTH.csl" rel="repo"/>
   </info>
   <locale xml:lang="de">
@@ -81,12 +82,18 @@
       </group>
       <group>
         <choose>
-          <if match="any" variable="container-author original-author">
-            <group delimiter=" " suffix=" ">
+          <if match="any" variable="container-author original-author editor">
+            <group delimiter=" " suffix=", ">
               <text value="in:"/>
               <names variable="container-author">
                 <substitute>
                   <names variable="original-author"/>
+                </substitute>
+                <substitute>
+                  <names variable="editor">
+                    <name/>
+                    <label form="short" prefix=" (" suffix=")"/>
+                  </names>
                 </substitute>
               </names>
             </group>
