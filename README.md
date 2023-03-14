@@ -1,12 +1,14 @@
 # 📑 ZGMTH.csl
 
+> Dieser Zitierstil ist noch jung und es fehlen sicher noch einige Anwendungsfälle.
+
 Dieser Zitierstil implementiert einen Autor-Jahr-Stil nach den [Formatierungsregeln der ZGMTH](https://www.gmth.de/formatierung.aspx#zf).
 
 ## Beispiele
 
 Fließtextzitate haben immer die Form `Autor Jahr`: Adorno 2001, Choron/La Fage 1838.
 
-### Bibliographie
+#### Bibliographie
 
 Adorno, Theodor W. (2001), *Zu einer Theorie der musikalischen Reproduktion. Aufzeichnungen, ein Entwurf und zwei Schemata* (= *Nachgelassene Schriften* I/2), hg. von Henri Lonitz, Frankfurt a. M.: Suhrkamp.
 
@@ -52,7 +54,7 @@ Autor(en) (original-date), *Titel*, original-publisher-place: original-publisher
 
 ### 📖 Buchteil
 
-Ein Buchteil unterscheidet sich von der Klasse Zeitschriftenartikel durch das Weglassen von `in:`. Dieses Verhalten kann jedoch die Angabe von **container-author** oder **original-author** überschrieben werden. Dadurch ergeben zwei Schema:
+Ein Buchteil unterscheidet sich von der Klasse Zeitschriftenartikel durch das Weglassen von `in:`. Dieses Verhalten wird bei Vorliegen von  **container-author**, **original-author** oder **editor** überschrieben. Dadurch ergeben zwei Schema:
 
 ```md
 Autor(en) (Datum), "Titel" [type, original-date], *Buchtitel* Band/Issue, Ort: Verlag, Seiten.
@@ -61,7 +63,7 @@ Autor(en) (Datum), "Titel" [type, original-date], *Buchtitel* Band/Issue, Ort: V
 
 Autor(en) (Datum), "Titel" [type, original-date], in: collection-author, *Buchtitel* Band/Issue, Ort: Verlag, Seiten.
                                                       original-author              , Bd. Band
-                                                                                   , H. Issue
+                                                      editor (Hg.)                 , H. Issue
 ```
 
 Ist der Autor der Reihe derselbe wie der des Auszugs daraus, kann durch die Angabe `collection-author: ders.` die gekürzte Variante erzeugt werden.
