@@ -1,0 +1,594 @@
+[
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/DV5LDPWP",
+		"type": "book",
+		"event-place": "Am Fluss",
+		"publisher": "Mühle",
+		"publisher-place": "Am Fluss",
+		"title": "An Editor writing a Book",
+		"editor": [
+			{
+				"family": "Buchdrucker",
+				"given": "Friedrich"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1790",
+					5,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/4PIWDA43",
+		"type": "book",
+		"event-place": "Am Fluss",
+		"publisher": "Mühle",
+		"publisher-place": "Am Fluss",
+		"title": "Kollaborative Sammlung",
+		"editor": [
+			{
+				"family": "Fleißig",
+				"given": "Peter"
+			},
+			{
+				"family": "Blind",
+				"given": "Gustav"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1783",
+					2,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/Z8MQVD8Z",
+		"type": "book",
+		"edition": "2",
+		"event-place": "Paris",
+		"publisher": "Ballard",
+		"publisher-place": "Paris",
+		"title": "Traité abrégé de l'accompagnement pour l'orgue et pour le clavecin",
+		"author": [
+			{
+				"family": "Boyvin",
+				"given": "Jaques"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1705"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/DEPCX4S9",
+		"type": "book",
+		"event-place": "Paris",
+		"publisher": "Roret",
+		"publisher-place": "Paris",
+		"title": "Manuel complet de musique vocale et instrumentale, ou Encyclopédie musicale",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Choron",
+				"given": "Alexandre"
+			},
+			{
+				"family": "La Fage",
+				"given": "Adrien",
+				"dropping-particle": "de"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1838"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/FV4B79KK",
+		"type": "article-journal",
+		"container-title": "Musiktheorie von der Antike bis zur Gegenwart",
+		"note": "publisher-place: Kassel\npublisher: Bärenreiter",
+		"page": "14-16",
+		"title": "J. G. Albrechtsberger, Gründliche Anweisung zur Composition",
+		"author": [
+			{
+				"family": "Aerts",
+				"given": "Hans"
+			}
+		],
+		"editor": [
+			{
+				"family": "Scheideler",
+				"given": "Ulrich"
+			},
+			{
+				"family": "Wörner",
+				"given": "Felix"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/SCG2AEJV",
+		"type": "article-journal",
+		"container-title": "Musik und ihre Theorien. Clemens Kühn zum 65. Geburtstag",
+		"note": "publisher-place: Dresden\npublisher: Sandstein",
+		"page": "132-148",
+		"title": "Ancilla Secundae: Akkord und Stimmführung in der Generalbasslehre",
+		"author": [
+			{
+				"family": "Diergarten",
+				"given": "Felix"
+			}
+		],
+		"editor": [
+			{
+				"family": "Diergarten",
+				"given": "Felix"
+			},
+			{
+				"family": "Holtmeier",
+				"given": "Ludwig"
+			},
+			{
+				"family": "Leigh",
+				"given": "John"
+			},
+			{
+				"family": "Metzner",
+				"given": "Edith"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/SSU4Z3TF",
+		"type": "article-journal",
+		"container-title": "Basler Jahrbuch für Historische Musikpraxis",
+		"page": "149-170",
+		"title": "Implizite Theorie: Zum Akkordbegriff der italienischen Generalbass-Theorie",
+		"volume": "31",
+		"author": [
+			{
+				"family": "Holtmeier",
+				"given": "Ludwig"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/WCRZR6EA",
+		"type": "chapter",
+		"container-title": "Präludien und Studien III",
+		"event-place": "Leipzig",
+		"note": "container-author: ders.",
+		"page": "31-45",
+		"publisher": "Breitkopf & Härtel",
+		"publisher-place": "Leipzig",
+		"title": "Zur Theorie der Konsonanz und Dissonanz",
+		"author": [
+			{
+				"family": "Riemann",
+				"given": "Hugo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1901"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/EU3S6EEB",
+		"type": "article-journal",
+		"container-title": "Zeitschrift der Gesellschaft für Musiktheorie",
+		"DOI": "https://doi.org/10.31751/250",
+		"issue": "1-2",
+		"page": "143-158",
+		"title": "›Modell‹ und ›Topos‹ in der deutschsprachigen Musiktheorie seit Riemann",
+		"URL": "https://doi.org/10.31751/250",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Aerts",
+				"given": "Hans"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					2,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/5W3Z7DKH",
+		"type": "book",
+		"edition": "2",
+		"event-place": "Tutzing",
+		"note": "original-date: 1934",
+		"publisher": "Schneider",
+		"publisher-place": "Tutzing",
+		"title": "Geschichte der Musikästhetik in Umrissen",
+		"author": [
+			{
+				"family": "Schäfke",
+				"given": "Rudolf"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1964"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/SSKT8BGD",
+		"type": "chapter",
+		"container-title": "Der Tonwille. Vierteljahrschrift zum Zeugnis unwandelbarer Gesetze der Tonkunst einer neuen Jugend dargebracht von Heinrich Schenker",
+		"note": "issue: 3",
+		"page": "22-25",
+		"title": "Die Kunst zu hören",
+		"author": [
+			{
+				"family": "Schenker",
+				"given": "Heinrich"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1922"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/3TYFLEX5",
+		"type": "book",
+		"event-place": "Hildesheim",
+		"note": "original-date: 1901\noriginal-publisher-place: Leipzig\noriginal-publisher: Breitkopf & Härtel",
+		"publisher": "Olms",
+		"publisher-place": "Hildesheim",
+		"title": "Präludien und Studien III",
+		"author": [
+			{
+				"family": "Riemann",
+				"given": "Hugo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1967"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/CZIUWTAW",
+		"type": "book",
+		"collection-title": "Große Kompositionslehre",
+		"event-place": "Berlin",
+		"publisher": "Spemann",
+		"publisher-place": "Berlin",
+		"title": "Der polyphone Satz",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Riemann",
+				"given": "Hugo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1903"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/KTHFX6YP",
+		"type": "book",
+		"collection-number": "I",
+		"collection-title": "Nachgelassene Schriften",
+		"event-place": "Frankfurt a. M.",
+		"publisher": "Suhrkamp",
+		"publisher-place": "Frankfurt a. M.",
+		"title": "Zu einer Theorie der musikalischen Reproduktion. Aufzeichnungen, ein Entwurf und zwei Schemata",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Adorno",
+				"given": "Theodor W."
+			}
+		],
+		"editor": [
+			{
+				"family": "Lonitz",
+				"given": "Henri"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/6SYSCEAX",
+		"type": "thesis",
+		"genre": "Phil. Diss.",
+		"note": "publisher: Laaber",
+		"title": "Der Akkord C‐Dur",
+		"author": [
+			{
+				"family": "Müller",
+				"given": "Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/MEL8ECSB",
+		"type": "thesis",
+		"genre": "Diplomarbeit",
+		"publisher": "Hochschule für Musik und Theater Hamburg",
+		"title": "Die Anwendung der Clausellehre des 17. Jahrhunderts im Theorieunterricht",
+		"author": [
+			{
+				"family": "Preuß",
+				"given": "Volkhardt"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1991"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/5XAZKDAK",
+		"type": "manuscript",
+		"call-number": "I-Bc P.120 (5)",
+		"genre": "Ms.",
+		"note": "page: fol. 32r-46v",
+		"title": "Regole del contrappunto, del sonare il basso continuo, et accompagnare la parte che canta",
+		"author": [
+			{
+				"family": "Anonym",
+				"given": ""
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1700"
+				]
+			],
+			"season": "um"
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/6KXFRTDC",
+		"type": "book",
+		"event-place": "Padua",
+		"note": "type: Ms.",
+		"publisher": "Armelin Musica",
+		"publisher-place": "Padua",
+		"title": "Bassi e Fughe",
+		"author": [
+			{
+				"family": "Durante",
+				"given": "Francesco"
+			}
+		],
+		"editor": [
+			{
+				"family": "Pastore",
+				"given": "Giuseppe A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2003"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/Z9PG29G6",
+		"type": "article-journal",
+		"container-title": "Georg Muffat. An Essay on Thoroughbass",
+		"note": "type: Ms.\noriginal-date: 1699\npublisher-place: Dallas (TX)\npublisher: American Institue of Musicology",
+		"page": "39-130",
+		"title": "Regulae concentuum partiturae",
+		"author": [
+			{
+				"family": "Muffat",
+				"given": "Georg"
+			}
+		],
+		"editor": [
+			{
+				"family": "Federhofer",
+				"given": "Helmut"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1961"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/DXPKDFPI",
+		"type": "webpage",
+		"title": "Beobachtung und die Unschärfen der Erkenntnis",
+		"URL": "http://www.uni-koeln.de/hf/konstrukt/reich_works/buecher/ordnung/band1.html",
+		"author": [
+			{
+				"family": "Reich",
+				"given": "Kersten"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2016",
+					3,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/AGXZRHMR",
+		"type": "book",
+		"event-place": "Wilhemshaven",
+		"publisher": "Noetzel",
+		"publisher-place": "Wilhemshaven",
+		"title": "Solfeggi, Bassi e Fughe. Georg Friedrich Händels Übungen zur Satzlehre",
+		"author": [
+			{
+				"family": "Holtmeier",
+				"given": "Ludwig"
+			},
+			{
+				"family": "Menke",
+				"given": "Johannes"
+			},
+			{
+				"family": "Diergarten",
+				"given": "Felix"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/MC3NGS27",
+		"type": "chapter",
+		"container-title": "Präludien und Studien III",
+		"event-place": "Leipzig",
+		"note": "original-author: ders.\noriginal-date: 1872",
+		"page": "1-22",
+		"publisher": "Breitkopf & Härtel",
+		"publisher-place": "Leipzig",
+		"title": "Musikalische Logik",
+		"author": [
+			{
+				"family": "Riemann",
+				"given": "Hugo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1901"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/z4cOsH8Y/items/RS9J3AQH",
+		"type": "chapter",
+		"container-title": "Brahms Handbuch",
+		"event-place": "Stuttgart",
+		"publisher": "Metzler",
+		"publisher-place": "Stuttgart",
+		"title": "Klaviertrios, Klavierquartette, klavierquintett",
+		"author": [
+			{
+				"family": "Oechsle",
+				"given": "Siegfried"
+			}
+		],
+		"editor": [
+			{
+				"family": "Sandberger",
+				"given": "Wolfgang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	}
+]

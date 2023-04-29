@@ -1,0 +1,2 @@
+- `Advanced → Bibliography → subsequent-author-substitute` 
+- Type in Durante is missing

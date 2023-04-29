@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<style class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="de" xmlns="http://purl.org/net/xbiblio/csl">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/#) -->
+  <info>
+    <title xml:lang="de">ZGMTH</title>
+    <id>http://www.zotero.org/styles/zgmth</id>
+    <link rel="self" href="http://www.zotero.org/styles/zgmth"/>
+    <updated>2023-03-12T23:48:32+00:00</updated>
+  </info>
+  <locale xml:lang="de">
+    <terms>
+      <term name="issue">Heft</term>
+      <term name="volume">Band</term>
+      <term name="issue" form="short">H.</term>
+      <term name="volume" form="short">Bd.</term>
+      <term name="editor" form="short">Hg.</term>
+      <term name="collection-number" form="short">Abt.</term>
+    </terms>
+  </locale>
+  <macro name="thesis-bib">
+    <group delimiter=", " suffix=".">
+      <text macro="author-date-bib"/>
+      <text variable="title" font-style="italic"/>
+      <text variable="genre"/>
+      <text macro="publisher-place"/>
+    </group>
+  </macro>
+  <macro name="author-bib">
+    <names variable="author">
+      <name delimiter=" / " name-as-sort-order="first"/>
+      <substitute>
+        <names variable="editor">
+          <name delimiter=" / " name-as-sort-order="first"/>
+          <label form="short" plural="never" prefix=" (" suffix=")"/>
+        </names>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="date-bib">
+    <date date-parts="year" form="text" variable="issued"/>
+  </macro>
+  <macro name="author-date-bib">
+    <group delimiter=" ">
+      <text macro="author-bib"/>
+      <text macro="date-bib" prefix="(" suffix=")"/>
+    </group>
+  </macro>
+  <macro name="publisher-place">
+    <group delimiter=": ">
+      <text variable="publisher-place"/>
+      <text variable="publisher"/>
+    </group>
+  </macro>
+  <macro name="manuscript-bib">
+    <group delimiter=", ">
+      <group delimiter=" ">
+        <text macro="author-bib"/>
+        <date form="text" variable="issued" prefix="(" suffix=")">
+          <date-part name="year"/>
+        </date>
+      </group>
+      <text variable="title" font-style="italic"/>
+      <text variable="genre"/>
+      <text variable="call-number"/>
+      <text variable="page"/>
+    </group>
+  </macro>
+  <macro name="book-section-bib">
+    <group>
+      <text macro="author-date-bib" suffix=", "/>
+      <text variable="title" strip-periods="false" quotes="true" font-style="normal" font-variant="normal" font-weight="normal" text-decoration="none" vertical-align="baseline"/>
+      <text value=", "/>
+      <choose>
+        <if match="any" variable="container-author">
+          <group delimiter=" " suffix=" ">
+            <text value="in:"/>
+            <names variable="container-author"/>
+          </group>
+        </if>
+      </choose>
+      <text macro="volume-issue"/>
+      <text macro="publisher-place" prefix=", "/>
+      <text variable="page" prefix=", "/>
+    </group>
+  </macro>
+  <macro name="article-journal-bib">
+    <group delimiter=", ">
+      <text macro="author-date-bib"/>
+      <text variable="title" quotes="true"/>
+      <group delimiter=", " prefix="[" suffix="]">
+        <text variable="genre"/>
+        <date date-parts="year" form="text" variable="original-date"/>
+      </group>
+      <group delimiter=" ">
+        <text value="in:"/>
+        <text macro="volume-issue"/>
+      </group>
+      <group delimiter=" ">
+        <names variable="editor">
+          <label form="verb-short" suffix=" "/>
+          <name and="text"/>
+        </names>
+      </group>
+      <text macro="publisher-place"/>
+      <text variable="page" suffix="."/>
+    </group>
+    <text macro="web-access" prefix=" "/>
+  </macro>
+  <macro name="volume-issue">
+    <choose>
+      <if match="all" variable="volume issue">
+        <group delimiter=" ">
+          <text variable="container-title" font-style="italic"/>
+          <group delimiter="/">
+            <text variable="volume"/>
+            <text variable="issue"/>
+          </group>
+        </group>
+      </if>
+      <else-if match="any" variable="volume">
+        <group delimiter=" ">
+          <text variable="container-title" font-style="italic" suffix=", "/>
+          <text term="volume" form="short"/>
+          <text variable="volume"/>
+        </group>
+      </else-if>
+      <else-if match="any" variable="issue">
+        <group delimiter=" ">
+          <text variable="container-title" font-style="italic" suffix=", "/>
+          <text term="issue" form="short"/>
+          <text variable="issue"/>
+        </group>
+      </else-if>
+      <else>
+        <text variable="container-title" font-style="italic"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="web-access">
+    <group delimiter=" ">
+      <choose>
+        <if match="any" variable="DOI">
+          <text variable="DOI"/>
+        </if>
+        <else>
+          <text variable="URL"/>
+        </else>
+      </choose>
+      <date form="numeric" variable="accessed" prefix="(" suffix=")"/>
+    </group>
+  </macro>
+  <macro name="book-bib">
+    <group delimiter=", " suffix=".">
+      <text macro="author-date-bib"/>
+      <group delimiter=" ">
+        <text variable="title" font-style="italic"/>
+        <choose>
+          <if match="any" variable="collection-title">
+            <group prefix="(= " suffix=")">
+              <choose>
+                <if match="all" variable="collection-number volume">
+                  <group delimiter=" ">
+                    <text variable="collection-title" font-style="italic"/>
+                    <group delimiter="/">
+                      <text variable="collection-number"/>
+                      <text variable="volume"/>
+                    </group>
+                  </group>
+                </if>
+                <else-if match="any" variable="collection-number">
+                  <group delimiter=" ">
+                    <text variable="collection-title" font-style="italic" suffix=","/>
+                    <text term="collection-number" form="short"/>
+                    <text variable="collection-number"/>
+                  </group>
+                </else-if>
+                <else-if match="any" variable="volume">
+                  <group delimiter=" ">
+                    <text variable="collection-title" font-style="italic" suffix=","/>
+                    <text macro="volume"/>
+                  </group>
+                </else-if>
+              </choose>
+              <text macro="type-original-date"/>
+            </group>
+          </if>
+          <else>
+            <text macro="type-original-date"/>
+          </else>
+        </choose>
+      </group>
+      <text macro="edition"/>
+      <choose>
+        <if match="none" variable="collection-title">
+          <text macro="volume"/>
+        </if>
+      </choose>
+      <choose>
+        <if match="all" variable="author editor">
+          <names variable="editor">
+            <label form="verb-short" suffix=" "/>
+            <name delimiter="/ " and="text"/>
+          </names>
+        </if>
+      </choose>
+      <text macro="publisher-place"/>
+    </group>
+    <text macro="web-access"/>
+  </macro>
+  <macro name="type-original-date">
+    <group delimiter=", " prefix="[" suffix="]">
+      <text variable="genre"/>
+      <date form="text" variable="original-date">
+        <date-part name="year"/>
+      </date>
+    </group>
+  </macro>
+  <macro name="edition">
+    <choose>
+      <if match="any" is-numeric="edition">
+        <text variable="edition" suffix=". "/>
+        <text value="Auflage"/>
+      </if>
+      <else>
+        <text variable="edition"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="volume">
+    <text term="volume" form="short" suffix=" "/>
+    <text variable="volume"/>
+  </macro>
+  <citation>
+    <layout>
+      <group delimiter=" ">
+        <names variable="author">
+          <name form="short" delimiter="/"/>
+          <substitute>
+            <names variable="editor">
+              <name form="short" delimiter="/"/>
+            </names>
+          </substitute>
+        </names>
+        <date date-parts="year" form="text" variable="issued">
+          <date-part name="year"/>
+        </date>
+      </group>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <choose>
+        <if type="thesis" match="any">
+          <text macro="thesis-bib" suffix="."/>
+        </if>
+        <else-if type="manuscript" match="any">
+          <text macro="manuscript-bib" suffix="."/>
+        </else-if>
+        <else-if type="chapter" match="any">
+          <text macro="book-section-bib" suffix="."/>
+        </else-if>
+        <else-if type="article-journal" match="any">
+          <text macro="article-journal-bib"/>
+        </else-if>
+        <else>
+          <text macro="book-bib"/>
+        </else>
+      </choose>
+    </layout>
+  </bibliography>
+</style>
